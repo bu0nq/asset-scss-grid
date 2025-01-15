@@ -1,0 +1,65 @@
+@use "~@bu0nq/asset-scss-function/function";
+
+$min-breakpoint: 960px !default;
+$max-breakpoint: 1440px !default;
+$mix-breakpoint: function.from-px-to-rem-clamp($min-breakpoint, $max-breakpoint, $min-breakpoint, $max-breakpoint) !default;
+
+$min-gap: 20px !default;
+$max-gap: 40px !default;
+$mix-gap: function.from-px-to-rem-clamp($min-gap, $max-gap, $min-breakpoint, $max-breakpoint) !default;
+
+$min-offset: 10px !default;
+$max-offset: 20px !default;
+$mix-offset: function.from-px-to-rem-clamp($min-offset, $max-offset, $min-breakpoint, $max-breakpoint) !default;
+
+$min-size: calc($min-breakpoint / 12) !default;
+$max-size: calc($max-breakpoint / 12) !default;
+$mix-size: function.from-px-to-rem-clamp($min-size, $max-size, $min-breakpoint, $max-breakpoint) !default;
+
+$min-size-01: calc(($min-size * 1) - $min-gap) !default;
+$max-size-01: calc(($max-size * 1) - $max-gap) !default;
+$mix-size-01: function.from-px-to-rem-clamp($min-size-01, $max-size-01, $min-breakpoint, $max-breakpoint) !default;
+
+$min-size-02: calc(($min-size * 2) - $min-gap) !default;
+$max-size-02: calc(($max-size * 2) - $max-gap) !default;
+$mix-size-02: function.from-px-to-rem-clamp($min-size-02, $max-size-02, $min-breakpoint, $max-breakpoint) !default;
+
+$min-size-03: calc(($min-size * 3) - $min-gap) !default;
+$max-size-03: calc(($max-size * 3) - $max-gap) !default;
+$mix-size-03: function.from-px-to-rem-clamp($min-size-03, $max-size-03, $min-breakpoint, $max-breakpoint) !default;
+
+$min-size-04: calc(($min-size * 4) - $min-gap) !default;
+$max-size-04: calc(($max-size * 4) - $max-gap) !default;
+$mix-size-04: function.from-px-to-rem-clamp($min-size-04, $max-size-04, $min-breakpoint, $max-breakpoint) !default;
+
+$min-size-05: calc(($min-size * 5) - $min-gap) !default;
+$max-size-05: calc(($max-size * 5) - $max-gap) !default;
+$mix-size-05: function.from-px-to-rem-clamp($min-size-05, $max-size-05, $min-breakpoint, $max-breakpoint) !default;
+
+$min-size-06: calc(($min-size * 6) - $min-gap) !default;
+$max-size-06: calc(($max-size * 6) - $max-gap) !default;
+$mix-size-06: function.from-px-to-rem-clamp($min-size-06, $max-size-06, $min-breakpoint, $max-breakpoint) !default;
+
+$min-size-07: calc(($min-size * 7) - $min-gap) !default;
+$max-size-07: calc(($max-size * 7) - $max-gap) !default;
+$mix-size-07: function.from-px-to-rem-clamp($min-size-07, $max-size-07, $min-breakpoint, $max-breakpoint) !default;
+
+$min-size-08: calc(($min-size * 8) - $min-gap) !default;
+$max-size-08: calc(($max-size * 8) - $max-gap) !default;
+$mix-size-08: function.from-px-to-rem-clamp($min-size-08, $max-size-08, $min-breakpoint, $max-breakpoint) !default;
+
+$min-size-09: calc(($min-size * 9) - $min-gap) !default;
+$max-size-09: calc(($max-size * 9) - $max-gap) !default;
+$mix-size-09: function.from-px-to-rem-clamp($min-size-09, $max-size-09, $min-breakpoint, $max-breakpoint) !default;
+
+$min-size-10: calc(($min-size * 10) - $min-gap) !default;
+$max-size-10: calc(($max-size * 10) - $max-gap) !default;
+$mix-size-10: function.from-px-to-rem-clamp($min-size-10, $max-size-10, $min-breakpoint, $max-breakpoint) !default;
+
+$min-size-11: calc(($min-size * 11) - $min-gap) !default;
+$max-size-11: calc(($max-size * 11) - $max-gap) !default;
+$mix-size-11: function.from-px-to-rem-clamp($min-size-11, $max-size-11, $min-breakpoint, $max-breakpoint) !default;
+
+$min-size-12: calc(($min-size * 12) - $min-gap) !default;
+$max-size-12: calc(($max-size * 12) - $max-gap) !default;
+$mix-size-12: function.from-px-to-rem-clamp($min-size-12, $max-size-12, $min-breakpoint, $max-breakpoint) !default;
