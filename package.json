@@ -2,7 +2,6 @@
   "name": "@bu0nq/asset-scss-grid",
   "version": "0.2.0",
   "description": "Package for integrating Asset SCSS Grid",
-  "main": "grid.scss",
   "files": [
     "./**/*.scss"
   ],
