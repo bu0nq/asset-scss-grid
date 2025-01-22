@@ -8,7 +8,7 @@ $max-column-size: 120px !default;
 $mix-column-size: function.getClamp($min-column-size, $max-column-size, $min-breakpoint, $max-breakpoint);
 
 $min-gutter: 20px !default;
-$max-gutter: 40px !default;
+$max-gutter: 30px !default;
 $mix-gutter: function.getClamp($min-gutter, $max-gutter, $min-breakpoint, $max-breakpoint);
 
 $min-column-size-01: function.getGridColumnSize($min-column-size, $min-gutter, 1);
