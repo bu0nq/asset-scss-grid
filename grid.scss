@@ -1,3 +1,11 @@
 @function getColumnSize($column, $gutter, $number) {
   @return calc(($column * $number) - $gutter);
 }
+
+@function getGutterSize($column, $gutter, $number) {
+  @return calc(($column * $number) - $gutter);
+}
+
+@function getOffsetSize($column, $gutter, $number) {
+  @return calc(($column * $number) - $gutter);
+}
